@@ -11,3 +11,7 @@
 
 4.以下のコマンドでAB間の距離を取得できる(double型)<br>
 `/data get storage minecraft:sukyakura util.distance`
+
+## 備考
+1024[m]まで算出可能<br>
+最小単位は2^-19[m]
