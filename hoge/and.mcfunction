@@ -61,4 +61,3 @@ execute if score #Alice sk_bit_A matches ..-1 if score #Alice sk_bit_B matches .
 scoreboard players operation #Alice sk_bit_A *= #Alice sk_const_2
 scoreboard players operation #Alice sk_bit_B *= #Alice sk_const_2
 execute if score #Alice sk_bit_A matches ..-1 if score #Alice sk_bit_B matches ..-1 run scoreboard players remove #Alice sk_bit_C 2
-
