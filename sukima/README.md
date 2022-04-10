@@ -37,4 +37,4 @@
 
 ## 備考
 対応バージョンはJE1.18.2
-
+ダウンロードはhttps://github.com/Sukyakura/sk_mc_datapacks からCode→Download Zipでできます．sukimaフォルダの中身が本データパックとなります．
