@@ -36,5 +36,5 @@
 `/function sksukima:sample/customize`
 
 ## 備考
-対応バージョンはJE1.18.2
-ダウンロードはhttps://github.com/Sukyakura/sk_mc_datapacks からCode→Download Zipでできます．sukimaフォルダの中身が本データパックとなります．
+対応バージョンはJE1.18.2<br>
+ダウンロードはhttps://github.com/Sukyakura/sk_mc_datapacks からCode→Download ZIPでできます．sukimaフォルダの中身が本データパックとなります．
