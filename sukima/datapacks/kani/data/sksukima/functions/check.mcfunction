@@ -1,0 +1,6 @@
+execute if block ~ ~ ~ #sksukima:box if data storage minecraft:sukyakura {Sukima_:{Setting:{Box:true,BoxDetail:{CheckItem:false}}}} run data modify storage minecraft:sukyakura Sukima_.SetArmorStand set value true
+execute if block ~ ~ ~ #sksukima:box if data block ~ ~ ~ Items[0] if data storage minecraft:sukyakura {Sukima_:{Setting:{Box:true,BoxDetail:{CheckItem:true}}}} run data modify storage minecraft:sukyakura Sukima_.SetArmorStand set value true
+execute if block ~ ~ ~ #minecraft:buttons if data storage minecraft:sukyakura {Sukima_:{Setting:{Button:true}}} run data modify storage minecraft:sukyakura Sukima_.SetArmorStand set value true
+execute if block ~ ~ ~ minecraft:lever if data storage minecraft:sukyakura {Sukima_:{Setting:{Lever:true}}} run data modify storage minecraft:sukyakura Sukima_.SetArmorStand set value true
+execute if block ~ ~ ~ #minecraft:signs unless data block ~ ~ ~ {Text1:'{"text":""}',Text2:'{"text":""}',Text3:'{"text":""}',Text4:'{"text":""}'} if data storage minecraft:sukyakura {Sukima_:{Setting:{Sign:true}}} run data modify storage minecraft:sukyakura Sukima_.SetArmorStand set value true
+execute if data storage minecraft:sukyakura {Sukima_:{SetArmorStand:true}} run function sksukima:set
